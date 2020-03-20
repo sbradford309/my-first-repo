@@ -3,6 +3,7 @@ body {
 }
 section {
     border: 1px solid black#33ffff;
+    border-width: 3px;
     margin: 5px;
     padding: 5px;
     background-color: white;
