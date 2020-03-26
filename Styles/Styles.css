@@ -16,3 +16,9 @@ footer {
     background-color: #33ffff;
 }
 
+#logo, #headtitle {
+    float: left;
+    display:inline;
+
+}
+
