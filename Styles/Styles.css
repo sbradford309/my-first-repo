@@ -1,4 +1,6 @@
-
+header {
+    padding: 10px;
+}
 body {
     margin: 4px;
     background-color: #ff6633;
