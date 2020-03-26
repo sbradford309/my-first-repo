@@ -21,6 +21,7 @@
             </h2>
             <script>
                 let title = document.getElementById("title");
+                let button = document.getElementsByClassName("button");
                 
                 title.addEventListener("mouseover", function (event) {
                     title.style.color = "brown";
@@ -28,6 +29,14 @@
                 title.addEventListener('mouseleave', function (even){
                     title.style.color = 'black';
                 });
+
+                button.addEventListener("mouseover", function (event) {
+                    button.style.background.color = "white";
+                });
+                button.addEventListener('mouseleave', function (even){
+                    title.style.background.color = "#ff6633";
+                });
+
             </script>
             <p>
                 Why Taco's? Let's not kid ourselfs, Tacos are the best food by far. 
