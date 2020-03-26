@@ -17,6 +17,16 @@ footer {
     background-color: #33ffff;
 }
 
+.button {
+    background-color: #ff6633;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+}
+
 #logo, #headtitle {
     float: left;
     display:inline;
